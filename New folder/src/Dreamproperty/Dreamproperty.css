@@ -1,0 +1,78 @@
+
+
+.dream{
+    width: 70%;
+    height: 150px;
+    background-color: rgba(255, 182, 193, 0.278);
+    margin-left: 210px;
+    display: flex;
+    margin-top: 20px;
+}
+.box11{
+
+    width: 50%;
+    height: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 25px;
+   
+}
+.box11 h2{
+    color: navy ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box11 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box12{
+    width: 20%;
+   
+    height: 70px;
+    margin-top: 48px;
+    
+}
+
+
+.box12_inside{
+   
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: purple;
+}
+.box12_inside p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box13{
+    width:20%;
+    
+    height: 140px;
+}
+.box13 img{
+    height: 150px;
+    width: 100%;
+}
+.rowbox{
+    width: 50%;
+    height: 500px;
+   
+}
+.rowbox img{
+    width: 100%;
+    height: 500px;
+}
+.rowbox2 {
+    width: 50%;
+    height: 500px;
+   
+  
+    text-align: center;
+}
+
+.custom_button{
+    background-color: orange;
+}

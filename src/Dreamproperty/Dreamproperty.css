@@ -1,0 +1,253 @@
+
+
+.dream{
+    width: 70%;
+    height: 150px;
+    background-color: rgba(255, 182, 193, 0.278);
+    margin-left: 210px;
+    display: flex;
+    margin-top: 20px;
+}
+.box11{
+
+    width: 50%;
+    height: 100px;
+    margin-top: 20px;
+    text-align: left;
+    padding: 25px;
+   
+}
+.box11 h2{
+    color: navy ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box11 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box12{
+    width: 20%;
+   
+    height: 70px;
+    margin-top: 48px;
+    
+}
+
+
+.box12_inside{
+   
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: purple;
+}
+.box12_inside p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box13{
+    width:20%;
+    
+    height: 140px;
+}
+.box13 img{
+    height: 150px;
+    width: 100%;
+}
+.rowbox{
+    width: 50%;
+    height: 500px;
+   
+}
+.rowbox img{
+    width: 100%;
+    height: 500px;
+}
+.rowbox2 {
+    width: 50%;
+    height: 500px;
+   
+  
+    text-align: center;
+}
+
+.custom_button{
+    background-color: red;
+}
+
+@media only screen and (max-width:320px){
+
+    .dream{
+        width: 190%;
+        height: 100px;
+        background-color: rgba(255, 182, 193, 0.749);
+        margin-left: 50px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    .box11{
+    
+        width: 50%;
+        height: 100px;
+        margin-top: 1px;
+        text-align: left;
+        padding: 5px;
+      
+    }
+    .box11 h2{
+        color: navy ;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .box11 p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box12{
+        width: 20%;
+       
+        height: 70px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    .box12_inside{
+       
+        margin-right: 60px;
+        text-align: center;
+        margin-top: 10px;
+        background-color: purple;
+    }
+    .box12_inside p{
+        color: white;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .box13{
+        width:40%;
+
+        height: 120px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    .box13 img{
+        height: 120px;
+        width: 100%;
+    }
+    .rowbox{
+        width: 100%;
+        height: 500px;
+       background-color: yellow;
+    }
+    .rowbox img{
+        width: 100%;
+        height: 200px;
+    }
+    .rowbox2 {
+        width: 50%;
+        height: 500px;
+       
+      
+        text-align: center;
+    }
+    
+    .custom_button{
+        background-color: orange;
+    }
+    
+
+}
+@media only screen and (max-width:768px){
+
+    .dream{
+        width: 100%;
+        height: 120px;
+        background-color: rgba(255, 182, 193, 0.749);
+        margin-left: 50px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 170px;
+        padding: 12px;
+    }
+    .box11{
+    
+        width: 50%;
+        height: 100px;
+        margin-top: 1px;
+        text-align: left;
+        padding: 5px;
+      
+    }
+    .box11 h2{
+        color: navy ;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+    .box11 p{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box12{
+        width: 20%;
+       
+        height: 70px;
+        margin-top: 15px;
+        
+    }
+    
+    
+    .box12_inside{
+       
+        margin-right: 60px;
+        text-align: center;
+        margin-top: 5px;
+        background-color: purple;
+    }
+    .box12_inside p{
+        color: white;
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .box13{
+        width:40%;
+     
+        height: 120px;
+        margin-top: -50px;
+        margin-left: 15px;
+    }
+    .box13 img{
+        height: 150px;
+        width: 80%;
+        margin-left: 60px;
+       
+    }
+    .rowbox{
+        width: 100%;
+        height: 500px;
+       background-color: yellow;
+    }
+    .rowbox img{
+        width: 100%;
+        height: 200px;
+    }
+    .rowbox2 {
+        width: 50%;
+        height: 500px;
+       
+      
+        text-align: center;
+    }
+    
+    .custom_button{
+        background-color: orange;
+    }
+    
+
+
+}

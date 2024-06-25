@@ -1,0 +1,41 @@
+
+
+
+.box2{
+    width: 100%;
+    height: 570px;
+   position: relative;
+    margin-top: 20px;
+    display: flex;
+}
+
+.box3{
+   
+    width: 50%;
+    height: 570px;
+   
+}
+
+.box3 img{
+    width: 100%;
+    height: 570px;
+}
+.box4{
+ 
+    width: 50%;
+    height: 570px;
+   
+    text-align: left;
+    padding: 30px;
+     
+}
+.box4 h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     border-bottom:  solid black ;
+     width: 340px;
+     margin-top: 10px;
+}
+.box4 p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}

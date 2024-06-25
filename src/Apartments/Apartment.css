@@ -1,0 +1,429 @@
+
+.apartment_content {
+  background-color: black;
+    width: 0;  /* Changed to 100% for full width */
+    height: 70px;
+}
+
+header {
+    position: fixed;
+   background-color: black;
+    width: 100%;
+    height: 70px;
+}
+
+.apartment_inside {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.apartment_logo {
+    width: 12%;
+    height: 70px;
+}
+
+.apartment_logo img {
+    width: 100%;
+    height: 70px;
+}
+
+.apartment_inside nav a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    margin-top: 1.8%;
+}
+
+nav ul {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+
+nav a {
+    color:white;
+}
+
+.apartment_inside button {
+    padding: 2px 15px;
+    background-color: orange;
+    height: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
+.apartment {
+   width: 90%;
+   margin-top: 30px;
+   margin-left: 75px;
+ }
+ 
+ .apartment h2 {
+   text-align: left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: lightgreen;
+   margin-left: 40px;
+ }
+ 
+ .carousel_content {
+   position: relative;
+   width: 100%;
+   height: 500px;
+   background-color: rgba(255, 182, 193, 0.77);
+ }
+ 
+ .carousel_inside {
+   width: 97%;
+   height: 400px;
+   
+   text-align: left;
+   position: absolute;
+   top: 20px;
+   left: 20px;
+ }
+ 
+ .image-container {
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .image-item {
+   width: 32%;
+   background-color: white;
+   text-align: center;
+   padding: 10px;
+   box-sizing: border-box;
+   position: relative;
+ }
+ 
+ .image-item img {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+ }
+ 
+ .details {
+   text-align: left;
+ }
+ 
+ .details h2 {
+   color: green;
+   font-size: 18px;
+   margin: 10px 0;
+ }
+ 
+ .details p {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 5px 0;
+ }
+ 
+ .value {
+   color: black;
+   font-weight: bold;
+   margin: 10px 0;
+ }
+ 
+ .value2 {
+   background-color: red;
+   color: white;
+   font-weight: bold;
+   padding: 6px;
+   display: inline-block;
+   position: absolute;
+   top: 20px;
+   left: 30px;
+  
+ }
+ 
+ .details button {
+   background-color: crimson;
+   color: white;
+   padding: 10px 20px;
+   font-size: 15px;
+   border: none;
+  cursor: pointer;
+ } 
+
+ .home_button{
+  width: 15%;
+  height: 50px;
+  position: absolute;
+
+  top: 20px;
+  left: 1130px;
+ 
+ }
+
+ 
+ .home_button button{
+  padding: 7px 15px;
+  background-color: crimson;
+  color: white;
+  margin-right: 15px;
+  font-size: 14px;
+ }
+ .home_button button:hover{
+ 
+  background-color:blue;
+  color: white;
+ 
+ }
+ .apart{
+  width: 100%;
+  height: 100px;
+ 
+  margin-top: 10px;
+ }
+
+  
+  .apart1{
+  width: 100%;
+  height: 1050px;
+ 
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+ 
+ }
+ 
+
+ @media only screen and (min-width: 318px) and (max-width: 324px) {
+  .whole_content {
+    background-color: black;
+      width: 100%;  /* Changed to 100% for full width */
+      height: 70px;
+      
+  }
+  
+  header {
+     
+     
+      width: 100%;
+      height: 70px;
+  }
+  
+  
+  
+  .whole_logo {
+      width: 12%;
+      height: 170px;
+  }
+  
+  .whole_logo img {
+      width: 100%;
+      height: 70px;
+  }
+
+  .menus{
+    display: flex;
+  
+
+}
+.contact_apartment{
+  width: 355%;
+  height: 1100px;
+  margin-top: 2400px;
+  margin-left: 10px;
+  background-color: yellow;
+  position: relative;
+}
+.contact_apartment img{
+  height: 1100px;
+  width: 100%;
+}
+
+
+ }
+
+@media only screen and (min-width: 725px) and (max-width: 768px) {
+  .apartment_content{
+    height: 80px;
+}
+
+
+header {
+    position: fixed;
+   background-color: black;
+    width: 100%;
+    height: 80px;
+}
+
+.apartment_inside {
+    height: 80px;
+    width: 100%;
+}
+.menus{
+    display: flex;
+  
+
+}
+
+
+
+nav ul li {
+    display: none;
+}
+
+.apartment_logo img {
+    width: 100%;
+    height: 80px;
+    margin-right:10px;
+}
+
+.apartment_content  header {
+    position: fixed;
+   background-color: black;
+    width: 100%;
+    height: 90px;
+}
+
+
+
+
+  .contact_apartment{
+    width: 255%;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 2400px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.contact_apartment img{
+    width: 100%;
+    height: 500px;
+}
+.contact_inside{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.852);
+    position: absolute;
+    top: 0;
+}
+.contact_inside2{
+    width: 30%;
+    height: 400px;
+    
+    position: absolute;
+    top:20px;
+}
+.contact_box1{
+    width: 50%;
+    height: 100px;
+    
+    margin-left: 30px;
+}
+.contact_box2{
+    width: 25%;
+    height: 80px;
+   
+    margin-left: 40px;
+    display: flex;
+   
+    justify-content: space-between;
+}
+.contact_box1 img{
+    width: 100%;
+    height: 80px;
+}
+.contact_box2 .hover_white:hover {
+    color: white !important;
+}
+.contact_inside3{
+    width: 25%;
+    height: 350px;
+  
+    position: absolute;
+    top: 0;
+    left: 900px;
+    text-align: left;
+   
+}
+.contact_inside3 .hover_white:hover {
+    color: orange !important;
+}
+.contact_inside4{
+    width: 27%;
+    height: 330px;
+   
+    position: absolute;
+    top: 47px;
+    left: 1400px;
+    text-align: left;
+}
+.contact1{
+    width: 85%;
+    height: 30px;
+   
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact2{
+    width: 75%;
+    height: 30px;
+  
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact3{
+    width: 75%;
+    height: 30px;
+
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+}
+ 
+
+@media only screen and (min-width: 385px) and (max-width: 425px)  {
+
+  .contact_apartment{
+    width: 255%;
+    height: 500px;
+    margin-left: 10px;
+    margin-top: 2450px;
+    background-color: yellow;
+    position: relative;
+}
+.contact_apartment img{
+  height: 500px;
+  width: 100%;
+}
+}
+
+
+@media only screen and (min-width: 358px) and (max-width: 375px) {
+
+  .contact_apartment{
+    width: 355%;
+    height: 1200px;
+    margin-top: 2400px;
+    margin-left: 10px;
+    background-color: yellow;
+    position: relative;
+}
+
+.contact_apartment img{
+  height: 1200px;
+  width: 100%;
+}
+}

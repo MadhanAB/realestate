@@ -1,0 +1,337 @@
+
+.propertyaddvisor{
+    width:100%;
+    height:650px;
+    margin-top:20px;
+    text-align:center;
+ }
+ 
+ .coustomer{
+     width:100%;
+     height:600px;
+ } 
+ .plays{
+     width:100%;
+     height:350px;
+ }
+ .play{
+     width:45%;
+     height:200px;
+     margin-left:40px;
+     text-align:left;
+     font-family:sans-serif;
+     color:gray;
+      border: 2px dotted blue;
+      padding:20px;
+ }
+ .play_content{
+     width:100%;
+     height:350px;
+     background-color:lightblue;
+     display:flex;
+     gap:40px;
+     padding:60px;
+ }
+ .property_all{
+     width:100%;
+     height:400px;
+     display:flex;
+     gap:50px
+ } 
+ 
+ .property{
+ 
+     width:28%;
+     height:400px;
+     margin-left:55px;
+ 
+ }
+ .property1{
+     width:28%;
+     height:400px;
+ } 
+ .property2{
+     width:28%;
+     height:400px;
+ } 
+
+
+
+
+@media only screen and (min-width: 318px) and (max-width: 324px) {
+   
+    .propertyaddvisor{
+        width:350%;
+        height:2200px;
+        margin-top:20px;
+        text-align:center;
+       
+     }
+     .propertyaddvisor{
+        font-size: 32px;
+     }
+    
+     .property_all{
+        width:100%;
+        height:1620px;
+        display:flex;
+        gap:50px;
+       
+        position: relative;
+        
+    }
+
+    .property{
+        position: absolute;
+        width:46%;
+        height:500px;
+        margin-left:55px;
+        left: 220px;
+    
+    }
+    .property1{
+        width:46%;
+        height:500px;
+        position: absolute;
+        left: 280px;
+        top: 520px;
+    } 
+    .property2{
+        width:46%;
+        height:500px;
+        position: absolute;
+        left:280px;
+        top:1050px;
+    } 
+
+     .coustomer{
+        width:350%;
+        height:1100px;
+       
+    }
+    .pp{
+        font-size: 32px;
+    }
+
+    .plays{
+        width:100%;
+        height:450px;
+    }
+    .play{
+        width:45%;
+        height:400px;
+        margin-left:40px;
+        text-align:left;
+        font-family:sans-serif;
+        color:gray;
+         border: 2px dotted blue;
+         padding:10px;
+    }
+    .play_content{
+        width:100%;
+        height:600px;
+        background-color:lightblue;
+        display:flex;
+        gap:40px;
+        padding:60px;
+        margin-top: 250px;
+    }
+    .play_content p{
+        font-size: 22px;
+    }
+    .call{
+        margin-left: 280px;
+    }
+  
+
+
+}
+
+@media only screen and (min-width: 725px) and (max-width: 768px) {
+
+    .propertyaddvisor{
+        width:250%;
+        height:700px;
+        margin-top:20px;
+        text-align:center;
+     }
+     .propertyaddvisor{
+        font-size: 22px;
+     }
+    
+     .coustomer{
+        width:250%;
+        height:700px;
+    }
+    .pp{
+        font-size: 22px;
+    }
+
+    .plays{
+        width:100%;
+        height:450px;
+        
+    }
+    .play{
+        width:45%;
+        height:300px;
+        margin-left:40px;
+        text-align:left;
+        font-family:sans-serif;
+        color:gray;
+         border: 2px dotted blue;
+         padding:20px;
+    }
+    .play_content{
+        width:100%;
+        height:450px;
+        background-color:lightblue;
+        display:flex;
+        gap:40px;
+        padding:60px;
+    }
+    .play_content p{
+        font-size: 22px;
+    }
+
+}
+
+
+@media only screen and (min-width: 385px) and (max-width: 425px)  {
+
+    .propertyaddvisor{
+        width:250%;
+        height:700px;
+        margin-top:20px;
+        text-align:center;
+     }
+     .propertyaddvisor{
+        font-size: 22px;
+     }
+    
+     .coustomer{
+        width:250%;
+        height:700px;
+        margin-top: 30px;
+    }
+    .pp{
+        font-size: 20px;
+    }
+    .plays{
+        width:100%;
+        height:250px;
+       
+    }
+
+    .play{
+        width:45%;
+        height:320px;
+        margin-left:40px;
+        
+        color:gray;
+         border: 2px dotted blue;
+         padding:20px;
+    }
+
+    .play_content{
+        width:100%;
+        height:420px;
+        background-color:lightblue;
+        display:flex;
+        gap:40px;
+        padding:60px;
+    }
+    .play_content p{
+        font-size: 18px;
+    }
+    
+
+
+}
+
+
+@media only screen and (min-width: 358px) and (max-width: 375px) {
+
+    .propertyaddvisor{
+        width:350%;
+        height:2200px;
+        margin-top:20px;
+        text-align:center;
+       
+     }
+     .propertyaddvisor{
+        font-size: 32px;
+     }
+    
+     .property_all{
+        width:100%;
+        height:1620px;
+        display:flex;
+        gap:50px;
+       
+        position: relative;
+        
+    }
+
+    .property{
+        position: absolute;
+        width:46%;
+        height:500px;
+        margin-left:55px;
+        left: 290px;
+    
+    }
+    .property1{
+        width:46%;
+        height:500px;
+        position: absolute;
+        left: 340px;
+        top: 520px;
+    } 
+    .property2{
+        width:46%;
+        height:500px;
+        position: absolute;
+        left:340px;
+        top:1050px;
+    } 
+
+     .coustomer{
+        width:350%;
+        height:1100px;
+       
+    }
+    .pp{
+        font-size: 32px;
+    }
+
+    .plays{
+        width:100%;
+        height:450px;
+    }
+    .play{
+        width:45%;
+        height:400px;
+        margin-left:40px;
+        text-align:left;
+        font-family:sans-serif;
+        color:gray;
+         border: 2px dotted blue;
+         padding:10px;
+    }
+    .play_content{
+        width:100%;
+        height:600px;
+        background-color:lightblue;
+        display:flex;
+        gap:40px;
+        padding:60px;
+        margin-top: 250px;
+    }
+    .play_content p{
+        font-size: 22px;
+    }
+    .call{
+        margin-left: 340px;
+    }
+}

@@ -1,0 +1,203 @@
+
+
+
+.contact_content{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    position: relative;
+}
+
+.contact_content img{
+    width: 100%;
+    height: 500px;
+}
+.contact_inside{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.852);
+    position: absolute;
+    top: 0;
+}
+.contact_inside2{
+    width: 30%;
+    height: 400px;
+    
+    position: absolute;
+    top:20px;
+}
+.contact_box1{
+    width: 50%;
+    height: 100px;
+    
+    margin-left: 40px;
+}
+.contact_box2{
+    width: 25%;
+    height: 80px;
+   
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_box1 img{
+    width: 100%;
+    height: 80px;
+}
+.contact_box2 .hover_white:hover {
+    color: white !important;
+}
+.contact_inside3{
+    width: 25%;
+    height: 350px;
+  
+    position: absolute;
+    top: 0;
+    left: 600px;
+    text-align: left;
+   
+}
+.contact_inside3 .hover_white:hover {
+    color: orange !important;
+}
+.contact_inside4{
+    width: 27%;
+    height: 330px;
+   
+    position: absolute;
+    top: 47px;
+    left: 900px;
+    text-align: left;
+}
+.contact1{
+    width: 85%;
+    height: 30px;
+   
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact2{
+    width: 75%;
+    height: 30px;
+  
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact3{
+    width: 75%;
+    height: 30px;
+
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media only screen and (max-width:320px){
+    .contact_content{
+        width: 315%;
+        height: 500px;
+        background-color: yellow;
+        position: relative;
+    }
+    
+    .contact_content img{
+        width: 100%;
+        height: 500px;
+    }
+    .contact_inside{
+        width: 100%;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.852);
+        position: absolute;
+        top: 0;
+    }
+    .contact_inside2{
+        width: 30%;
+        height: 400px;
+        
+        position: absolute;
+        top:20px;
+    }
+    .contact_box1{
+        width: 50%;
+        height: 100px;
+       
+        margin-left: 40px;
+    }
+    .contact_box2{
+        width: 25%;
+        height: 80px;
+       
+        margin-left: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_box1 img{
+        width: 100%;
+        height: 80px;
+    }
+    .contact_box2 .hover_white:hover {
+        color: white !important;
+    }
+    .contact_inside3{
+        width: 25%;
+        height: 350px;
+        
+        position: absolute;
+        top: 0;
+        left: 400px;
+        text-align: left;
+       
+    }
+    .contact_inside3 .hover_white:hover {
+        color: orange !important;
+    }
+    .contact_inside4{
+        width: 27%;
+        height: 330px;
+       
+        position: absolute;
+        top: 47px;
+        left: 700px;
+        text-align: left;
+    }
+    .contact1{
+        width: 85%;
+        height: 30px;
+       
+        margin-top: 60px;
+        display: flex;
+        gap: 20px;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .contact2{
+        width: 75%;
+        height: 30px;
+      
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .contact3{
+        width: 75%;
+        height: 30px;
+    
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
